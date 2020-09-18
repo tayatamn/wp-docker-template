@@ -1,4 +1,4 @@
-FROM wordpress:latest
+FROM wordpress:php7.4-apache
 
 #wp-cli, phpunitのインストール
 RUN apt update \
